@@ -11,33 +11,33 @@
 
   /* Hero */
   .hero { padding: 80px 40px 72px; text-align: center; border-bottom: 0.5px solid #e5e5e5; }
-  .logo-tag { display: inline-block; font-size: 12px; color: #888; letter-spacing: 0.08em; margin-bottom: 20px; padding: 6px 14px; border: 0.5px solid #ddd; border-radius: 8px; }
+  .logo-tag { display: inline-block; font-size: 15px; color: #888; letter-spacing: 0.08em; margin-bottom: 24px; padding: 8px 18px; border: 0.5px solid #ddd; border-radius: 8px; font-weight: 500; }
   .hero h1 { font-size: 38px; font-weight: 600; color: #111; line-height: 1.25; margin-bottom: 16px; }
   .hero h1 span { color: #3B82F6; }
   .hero p { font-size: 16px; color: #666; line-height: 1.7; max-width: 520px; margin: 0 auto 32px; }
   .btn-primary { display: inline-block; background: #3B82F6; color: #fff; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 8px; text-decoration: none; transition: background 0.15s; }
   .btn-primary:hover { background: #2563EB; }
 
-  /* Sections — 모두 중앙 정렬 */
+  /* Sections */
   .section { padding: 64px 40px; text-align: center; }
-  .section-label { font-size: 12px; letter-spacing: 0.1em; color: #3B82F6; font-weight: 600; margin-bottom: 10px; }
+  .section-label { font-size: 14px; letter-spacing: 0.12em; color: #3B82F6; font-weight: 800; margin-bottom: 12px; }
   .section h2 { font-size: 26px; font-weight: 600; color: #111; margin-bottom: 14px; line-height: 1.3; }
-  .section p { font-size: 15px; color: #666; line-height: 1.75; max-width: 560px; margin: 0 auto; }
+  .section > p { font-size: 15px; color: #666; line-height: 1.75; max-width: 560px; margin: 0 auto; }
 
   /* 왜 헬로입주 */
   .problem { background: #f7f8fc; border-bottom: 0.5px solid #e5e5e5; }
   .diff-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 32px auto 0; max-width: 640px; text-align: left; }
-  .diff-card { padding: 20px 22px; border-radius: 12px; border: 0.5px solid #e5e5e5; background: #fff; }
-  .diff-card.bad { border-left: 3px solid #E24B4A; border-radius: 0 12px 12px 0; }
-  .diff-card.good { border-left: 3px solid #3B82F6; border-radius: 0 12px 12px 0; }
-  .diff-card .tag { font-size: 11px; font-weight: 600; margin-bottom: 8px; letter-spacing: 0.06em; }
+  .diff-card { padding: 20px 22px; border-radius: 0 12px 12px 0; border: 0.5px solid #e5e5e5; background: #fff; }
+  .diff-card.bad { border-left: 3px solid #E24B4A; }
+  .diff-card.good { border-left: 3px solid #3B82F6; }
+  .diff-card .tag { font-size: 11px; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.06em; }
   .diff-card.bad .tag { color: #A32D2D; }
   .diff-card.good .tag { color: #1D4ED8; }
-  .diff-card p { font-size: 13px; color: #666; line-height: 1.6; }
+  .diff-card p { font-size: 13px; color: #666; line-height: 1.9; }
 
   /* 만든 사람들 */
   .founders { border-bottom: 0.5px solid #e5e5e5; }
-  .founders-body { font-size: 15px; color: #666; line-height: 1.85; margin: 14px auto 0; max-width: 600px; text-align: left; }
+  .founders-body { font-size: 15px; color: #666; line-height: 1.85; margin: 14px auto 0; max-width: 600px; text-align: center; }
   .founders-body p + p { margin-top: 14px; }
   .stat-row { display: flex; gap: 12px; margin: 28px auto 0; flex-wrap: wrap; max-width: 600px; }
   .stat-card { padding: 18px 22px; border-radius: 12px; border: 0.5px solid #e5e5e5; background: #fff; flex: 1; min-width: 140px; text-align: center; }
@@ -51,7 +51,7 @@
   .svc-icon { width: 36px; height: 36px; border-radius: 8px; background: #EFF6FF; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
   .svc-icon svg { width: 18px; height: 18px; stroke: #3B82F6; fill: none; stroke-width: 2; }
   .svc-card h3 { font-size: 16px; font-weight: 600; color: #111; margin-bottom: 6px; }
-  .svc-card p { font-size: 13px; color: #666; line-height: 1.6; }
+  .svc-card p { font-size: 13px; color: #666; line-height: 1.7; }
   .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 28px auto 0; max-width: 600px; justify-content: center; }
   .badge { font-size: 12px; padding: 5px 12px; border-radius: 99px; border: 0.5px solid #ddd; color: #666; }
 
@@ -60,14 +60,13 @@
   .flow-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 32px auto 0; max-width: 700px; }
   .step { text-align: center; padding: 20px 12px; }
   .step-num { width: 32px; height: 32px; border-radius: 50%; background: #3B82F6; color: #fff; font-size: 13px; font-weight: 600; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; }
-  .step h4 { font-size: 13px; font-weight: 600; color: #111; margin-bottom: 6px; line-height: 1.4; }
-  .step p { font-size: 12px; color: #666; line-height: 1.6; }
-  .time-notice { margin: 28px auto 0; max-width: 620px; padding: 18px 20px; border-radius: 12px; border: 0.5px solid #e5e5e5; background: #f7f8fc; text-align: left; }
-  .time-notice .nt { font-size: 12px; font-weight: 600; color: #2563EB; margin-bottom: 10px; letter-spacing: 0.05em; }
-  .time-row { display: flex; gap: 16px; flex-wrap: wrap; }
-  .time-item { font-size: 13px; color: #666; line-height: 1.6; flex: 1; min-width: 180px; }
-  .time-item strong { color: #111; font-weight: 600; }
-  .time-item .example { display: block; margin-top: 4px; font-size: 12px; color: #aaa; font-style: italic; }
+  .step h4 { font-size: 16px; font-weight: 600; color: #111; margin-bottom: 6px; line-height: 1.4; }
+  .step p { font-size: 13px; color: #666; line-height: 1.6; }
+  .time-notice { margin: 28px auto 0; max-width: 480px; padding: 20px 24px; border-radius: 12px; border: 0.5px solid #e5e5e5; background: #f7f8fc; text-align: center; }
+  .time-notice .nt { font-size: 13px; font-weight: 700; color: #2563EB; margin-bottom: 14px; letter-spacing: 0.05em; }
+  .time-block { font-size: 13px; color: #666; line-height: 1.9; }
+  .time-block + .time-block { margin-top: 12px; padding-top: 12px; border-top: 0.5px solid #e5e5e5; }
+  .time-block strong { display: block; color: #111; font-weight: 600; margin-bottom: 2px; }
 
   /* CTA */
   .cta-section { padding: 72px 40px; text-align: center; background: #f7f8fc; }
@@ -78,7 +77,6 @@
   .footer { padding: 28px 40px; border-top: 0.5px solid #e5e5e5; display: flex; justify-content: space-between; align-items: center; }
   .footer p { font-size: 12px; color: #aaa; }
 
-  /* 반응형 */
   @media (max-width: 600px) {
     .hero { padding: 56px 24px 48px; }
     .hero h1 { font-size: 28px; }
@@ -91,36 +89,39 @@
 </head>
 <body>
 
+<!-- Hero -->
 <div class="hero">
-  <div class="logo-tag">내일을사는사람들.</div>
+  <div class="logo-tag">내일을사는사람들</div>
   <h1>이사 준비,<br>이제 <span>30분 안에</span> 끝내세요.</h1>
   <p>이사 준비 고객을 위해 검증된 입주청소·줄눈 업체 추천 서비스.<br>가성비 최상위 업체를 빠르게 소개해 드려요.</p>
   <a href="https://www.helloipju.co.kr" class="btn-primary">헬로입주 바로가기</a>
 </div>
 
+<!-- 왜 헬로입주 -->
 <div class="section problem">
   <div class="section-label">왜 헬로입주인가요</div>
   <h2>매칭만 하는 플랫폼,<br>이제 그만 쓰세요</h2>
-  <p>기존 서비스는 업체를 연결해 주기만 할 뿐, 실제 퀄리티는 고객의 몫이었어요. 헬로입주는 다릅니다.</p>
+  <p>기존 서비스는 업체를 연결해 주기만 할 뿐,<br>실제 퀄리티는 고객의 몫이었어요.<br>헬로입주는 달라요.</p>
   <div class="diff-grid">
     <div class="diff-card bad">
       <div class="tag">기존 서비스</div>
-      <p>단순 매칭, 업체 검증 없음. 퀄리티는 복불복. 가격도 직접 비교해야 해요.</p>
+      <p>단순 매칭, 업체 검증 없음<br>퀄리티는 복불복<br>가격도 직접 비교해야 해요.</p>
     </div>
     <div class="diff-card good">
       <div class="tag">헬로입주</div>
-      <p>여러 단계 검증 완료된 500여 개 업체. 입찰 완료 후 1위 가격 즉시 공개.</p>
+      <p>여러 단계 검증 완료된 500개 업체<br>입찰 완료 후 1위 가격 즉시 공개</p>
     </div>
   </div>
 </div>
 
+<!-- 만든 사람들 -->
 <div class="section founders">
   <div class="section-label">만든 사람들</div>
   <h2>서비스를 만들게 된 진짜 이유</h2>
   <div class="founders-body">
     <p>건설·건자재·리모델링 업계에서 일하며 직접 느끼게 됐어요.<br>분명히 좋은 업체들이 있는데, 고객이 그 업체를 찾기가 어렵다는 걸요.<br>검색하면 광고가 먼저 뜨고, 플랫폼은 연결만 하면 끝이었죠.</p>
-    <p>그래서 저희 세 명이 모였어요.<br>합산 45년 이상의 업계 경험을 바탕으로 직접 발로 뛰며 업체를 검증했고, 가격도 퀄리티도 믿을 수 있는 업체만 추려 500여 개의 파트너 풀을 만들었어요.</p>
-    <p>헬로입주는 "잘 모르니까 대충 싼 데 아무 데나 맡겨야지"가 아니라, "이 업체라면 믿을 수 있다"는 확신을 드리기 위해 만든 서비스예요.</p>
+    <p>그래서 저희 세 명이 모였어요.<br>합산 45년 이상의 업계 경험을 바탕으로 직접 발로 뛰며 업체를 검증했고,<br>가격도 퀄리티도 믿을 수 있는 업체만 추려 500여 개의 파트너 풀을 만들었어요.</p>
+    <p>헬로입주는 "잘 모르니까 대충 싼 데 아무 데나 맡겨야지"가 아니라,<br>"이 업체라면 믿을 수 있다"는 확신을 드리기 위해 만든 서비스예요.</p>
   </div>
   <div class="stat-row">
     <div class="stat-card">
@@ -138,6 +139,7 @@
   </div>
 </div>
 
+<!-- 서비스 -->
 <div class="section services">
   <div class="section-label">서비스</div>
   <h2>두 가지 서비스,<br>하나의 플랫폼</h2>
@@ -148,14 +150,14 @@
         <svg viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
       </div>
       <h3>입주청소</h3>
-      <p>새 집 입주 전 전문 업체의 꼼꼼한 청소. 검증된 업체 중 가성비 1~3위를 바로 비교하세요.</p>
+      <p>분진, 묵은 때를 경력 있는 전문 업체가 꼼꼼히 청소.<br>검증된 업체 중 가성비로 바로 비교하세요.</p>
     </div>
     <div class="svc-card">
       <div class="svc-icon">
         <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
       </div>
       <h3>줄눈</h3>
-      <p>타일 줄눈 시공 전문 업체 매칭. 500여 개 검증 업체 풀에서 최적의 업체를 찾아드려요.</p>
+      <p>타일 줄눈 전문 업체 매칭.<br>폴리우레아, 케라폭시 등 모든 조건에 최적화된 업체를 소개해드려요.</p>
     </div>
   </div>
   <div class="badge-row">
@@ -165,10 +167,11 @@
   </div>
 </div>
 
+<!-- 이용 방법 -->
 <div class="section flow">
   <div class="section-label">이용 방법</div>
   <h2>버튼 하나로 시작,<br>입찰 완료 후 가격 바로 확인</h2>
-  <p>몇 가지 정보만 입력하면 검증된 업체들이 직접 입찰하고, 최적의 가격을 바로 확인할 수 있어요.</p>
+  <p>몇 가지 정보만 입력하면 검증된 업체들이 직접 입찰하고<br>최적의 가격을 바로 확인할 수 있어요.</p>
   <div class="flow-steps">
     <div class="step">
       <div class="step-num">1</div>
@@ -193,28 +196,26 @@
   </div>
   <div class="time-notice">
     <div class="nt">입찰 마감 시간 안내</div>
-    <div class="time-row">
-      <div class="time-item">
-        <strong>평일 오전 8시 ~ 오후 7시</strong>
-        <span>신청 후 약 30분 내 입찰 마감</span>
-      </div>
-      <div class="time-item">
-        <strong>평일 오후 7시 이후 · 주말 · 공휴일</strong>
-        <span>다음 영업일 오전 9시에 입찰 마감</span>
-        <span class="example">예) 토요일 오후 8시 신청 → 월요일 오전 9시 마감 (약 37시간 후)</span>
-      </div>
+    <div class="time-block">
+      <strong>평일 오전 8시 ~ 오후 7시</strong>
+      신청 후 30분 내 입찰 마감
+    </div>
+    <div class="time-block">
+      그 외 시간은 입찰 소요 시간이 길어질 수 있어요.
     </div>
   </div>
 </div>
 
+<!-- CTA -->
 <div class="cta-section">
   <h2>지금 바로 시작해보세요</h2>
   <p>검증된 업체 중 가성비 1위를 바로 소개받을 수 있어요.<br>헬로입주에서 이사 준비를 시작하세요.</p>
-  <a href="https://www.helloipju.co.kr" class="btn-primary">30분 안에 가성비 1위 업체 소개받기</a>
+  <a href="https://www.helloipju.co.kr" target="_blank" class="btn-primary">30분 안에 가성비 1위 업체 소개받기</a>
 </div>
 
+<!-- Footer -->
 <div class="footer">
-  <p>내일을사는사람들.</p>
+  <p>내일을사는사람들</p>
   <p>© 2025 내일을사는사람들. All rights reserved.</p>
 </div>
 
