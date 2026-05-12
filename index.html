@@ -9,8 +9,11 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif; color: #111; background: #fff; }
 
+  .navbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 40px; background: #fff; border-bottom: 0.5px solid #e5e5e5; }
+  .navbar .logo { font-size: 17px; font-weight: 700; color: #111; letter-spacing: 0.02em; }
+  .navbar .btn-outline { font-size: 13px; font-weight: 500; color: #3B82F6; border: 1px solid #3B82F6; padding: 7px 16px; border-radius: 6px; text-decoration: none; transition: background 0.15s; }
+  .navbar .btn-outline:hover { background: #EFF6FF; }
   .hero { padding: 80px 40px 72px; text-align: center; border-bottom: 0.5px solid #e5e5e5; }
-  .logo-tag { display: block; font-size: 19px; color: #111; letter-spacing: 0.04em; margin-bottom: 20px; font-weight: 600; text-align: left; }
   .hero h1 { font-size: 38px; font-weight: 600; color: #111; line-height: 1.25; margin-bottom: 16px; }
   .hero h1 span { color: #3B82F6; }
   .hero p { font-size: 16px; color: #666; line-height: 1.7; max-width: 520px; margin: 0 auto 32px; }
@@ -90,8 +93,12 @@
 </head>
 <body>
 
+<div class="navbar">
+  <div class="logo">내일을사는사람들</div>
+  <a href="https://www.helloipju.co.kr" target="_blank" class="btn-outline">서비스 바로가기</a>
+</div>
+
 <div class="hero">
-  <div class="logo-tag">내일을사는사람들</div>
   <h1>이사 준비,<br>이제 <span>30분 안에</span> 끝내세요.</h1>
   <p>이사 준비 고객을 위해 검증된 입주청소·줄눈 업체 추천 서비스.<br>가성비 최상위 업체를 빠르게 소개해 드려요.</p>
   <a href="https://www.helloipju.co.kr" target="_blank" class="btn-primary">헬로입주 바로가기</a>
